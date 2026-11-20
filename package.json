@@ -1,0 +1,78 @@
+{
+  "name": "floattodo",
+  "version": "1.3.1",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "description": "Offline floating desktop todo for Windows",
+  "author": "Peiying Ma",
+  "private": true,
+  "main": "electron/main.cjs",
+  "scripts": {
+    "dev": "node scripts/dev.cjs",
+    "typecheck": "tsc --noEmit",
+    "build": "npm run typecheck && vite build",
+    "test": "node --test tests/*.test.cjs",
+    "test:e2e": "playwright test",
+    "dist:win": "npm run build && node scripts/package.cjs",
+    "todo": "node cli/todo.cjs"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.1.2",
+    "electron": "45.2.1",
+    "electron-builder": "26.18.0",
+    "typescript": "5.9.3",
+    "vite": "8.3.5"
+  },
+  "build": {
+    "appId": "local.floattodo.desktop.v12",
+    "productName": "FloatTodo",
+    "asar": true,
+    "directories": {
+      "output": "release/v1.3.1",
+      "buildResources": "assets"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "assets/icon.ico",
+      "assets/icon.png",
+      "assets/THIRD_PARTY_LICENSES.txt",
+      "package.json"
+    ],
+    "win": {
+      "executableName": "FloatTodo",
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "assets/icon.ico",
+      "signExecutable": false
+    },
+    "portable": {
+      "artifactName": "FloatTodo-${version}-Portable-x64.exe"
+    },
+    "nsis": {
+      "artifactName": "FloatTodo-${version}-Setup-x64.exe",
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true
+    }
+  }
+}
