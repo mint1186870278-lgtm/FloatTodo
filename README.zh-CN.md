@@ -4,7 +4,7 @@
 
 [English documentation](README.md)
 
-当前为 **V1.3.1 Source Available Software（源码可用软件）候选**，尚未公开发布，不声称为 OSI 批准的开源软件。许可证已选定为 PolyForm Noncommercial License 1.0.0；版权主体为 Peiying Ma，版权年份为 2026。本目录不含安装包。
+**V1.3.1 源码已公开；Windows Portable / Setup 安装包尚未公开发行。** 本项目为 Source Available Software（源码可用软件），不声称为 OSI 批准的开源软件。许可证为 PolyForm Noncommercial License 1.0.0；版权主体为 Peiying Ma，版权年份为 2026。本目录不含安装包。
 
 ## 功能
 
@@ -16,7 +16,7 @@
 
 ## 安装与开发
 
-尚无公开下载地址。计划提供 Windows x64 Portable / Setup，两者共享用户数据目录；Portable 不会将数据保存在 EXE 旁。旧版升级前先退出托盘并导出备份。
+V1.3.1 源码已在本公开仓库提供。Windows x64 Portable / Setup 安装包尚未公开发行，暂无公开安装包下载地址。两者共享用户数据目录；Portable 不会将数据保存在 EXE 旁。旧版升级前先退出托盘并导出备份。
 
 使用 Windows PowerShell、Node.js 和 npm。历史工具环境为 Node 24.21.0 / npm 11.19.0，依赖由 lockfile 固定：
 
@@ -61,4 +61,4 @@ Todoist Token 只在本机设置中输入，通过 safeStorage 加密保存。�
 
 标准许可证允许非商业用途，并包含其规定的个人用途以及慈善组织、教育机构、公共研究机构、公共安全或健康组织、环保组织和政府机构用途；该机构用途许可不因资金来源或由资助产生的义务而改变。本摘要不撤销这些许可、不增加限制，也不限制合理使用权。分发时须提供许可证正文或其网址，并保留许可方提供的 Required Notice 行。
 
-版权声明：Copyright 2026 Peiying Ma。正式 Required Notice 及原创项目范围见 [NOTICE.md](NOTICE.md)。版权已确认，不代表已批准公开或授出单独商业授权。第三方组件适用各自原许可证。
+版权声明：Copyright 2026 Peiying Ma。正式 Required Notice 及原创项目范围见 [NOTICE.md](NOTICE.md)。源码公开不代表授出单独商业授权。第三方组件适用各自原许可证。

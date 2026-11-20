@@ -32,4 +32,4 @@ FloatTodo 采用 [PolyForm Noncommercial License 1.0.0](LICENSE) 公开源码，
 
 本文件不设价格、设备数、期限或售后合同，不改变第三方原有许可证；标准授权以未修改的 LICENSE 为准。分发时保留许可证正文或其网址及适用的 Required Notice 行。
 
-商业授权咨询：通过官方项目仓库联系版权所有者。本阶段尚未指定公开仓库 URL 或商业联系地址，版权主体为 Peiying Ma（2026），参见 [NOTICE.md](NOTICE.md)，不编造联系方式。
+商业授权咨询：通过[官方公开项目仓库](https://github.com/mint1186870278-lgtm/FloatTodo)联系版权所有者。尚未指定商业联系地址，版权主体为 Peiying Ma（2026），参见 [NOTICE.md](NOTICE.md)。源码公开不代表授出单独商业授权。

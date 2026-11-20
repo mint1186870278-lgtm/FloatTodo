@@ -6,7 +6,7 @@ A Lightweight Windows Desktop Todo App with AI Agent Integration
 
 FloatTodo is a local-first Windows floating desktop todo app. Everyday task management works offline without an account. AI agents can add tasks through a local command-line interface; optional Todoist synchronization provides a separate cloud workflow.
 
-**Source-available candidate: 1.3.1. Publication has not been executed.** The selected license is PolyForm Noncommercial License 1.0.0; copyright is held by Peiying Ma (2026). This is source-available software, not OSI-approved open source.
+**V1.3.1 source is publicly available. Windows Portable / Setup binaries have not been publicly released.** The license is PolyForm Noncommercial License 1.0.0; copyright is held by Peiying Ma (2026). This is source-available software, not OSI-approved open source.
 
 ## Features
 
@@ -19,11 +19,11 @@ FloatTodo is a local-first Windows floating desktop todo app. Everyday task mana
 
 ## Screenshots
 
-No screenshots are included yet. Reviewed screenshots from a fresh, synthetic-data profile may be added here before publication. Do not use account screens, personal tasks or recording captures without review.
+No screenshots are included yet. Reviewed screenshots from a fresh, synthetic-data profile may be added here. Do not use account screens, personal tasks or recording captures without review.
 
 ## Installation and Windows support
 
-No public download link is available in this preparation snapshot. Existing private binaries are not included. After a release is actually approved, its installation instructions and SHA256 checksums should accompany the download.
+V1.3.1 source is available in this public repository. Windows Portable / Setup binaries have not been publicly released, and no public binary download link is available. Existing private binaries are not included. When a binary release is approved, its installation instructions and SHA256 checksums should accompany the download.
 
 Planned distributions are Windows x64 Portable and Setup. Portable extracts its runtime to a temporary location; it does not carry task data beside the EXE. Both editions share the same Windows-user data directory. Exit the old version through the tray and export a backup before upgrading.
 
@@ -88,10 +88,10 @@ Same-group To-do reorder is supported; cross-group/cross-status drag is not. No 
 
 The standard license permits noncommercial purposes and its specified personal and organizational uses. Its provisions for charitable organizations, educational institutions, public research organizations, public safety or health organizations, environmental protection organizations and government institutions remain unchanged, regardless of funding source or resulting obligations. This summary adds no restrictions and does not limit fair-use rights. Distributors must provide the license terms or their URL and preserve any licensor-provided Required Notice lines.
 
-Copyright 2026 Peiying Ma. See [NOTICE.md](NOTICE.md) for the Required Notice and original-project scope. Publication and separate commercial permissions have not been approved.
+Copyright 2026 Peiying Ma. See [NOTICE.md](NOTICE.md) for the Required Notice and original-project scope. Public source availability does not grant separate commercial authorization.
 
 Third-party software retains its own licenses. See [third-party notices](THIRD_PARTY_NOTICES.md) and [bundled JS notices](assets/THIRD_PARTY_LICENSES.txt). Third-party permissions do not license FloatTodo's own source.
 
 ## Contributions and feedback
 
-See [contribution guidance](CONTRIBUTING.md). A future public repository and feedback channel have not been established in this preparation; no issue or release URL is implied. For a private review, provide only synthetic-data reproduction steps and redacted errors, never tokens, task databases or backups.
+See [contribution guidance](CONTRIBUTING.md) and the [public repository](https://github.com/mint1186870278-lgtm/FloatTodo). For feedback, provide only synthetic-data reproduction steps and redacted errors, never tokens, task databases or backups.

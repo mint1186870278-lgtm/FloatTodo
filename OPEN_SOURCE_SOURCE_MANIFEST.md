@@ -2,7 +2,7 @@
 
 Source version: **1.3.1 working-tree snapshot**.
 Original private archive HEAD: e760fb69ec70c75bb815494f44aef08e34c2be30 (version 1.2.1).
-This snapshot is prepared for the first independent local V1.3.1 source commit. No original Git objects, refs or history were copied. Its own commit SHA is intentionally not embedded in this file; Git history identifies the commit without a self-referential follow-up.
+This snapshot was published as the first independent V1.3.1 source commit, f214c42fb7f95cfb24705558b59a3fcafc4c9bd5, in the [public repository](https://github.com/mint1186870278-lgtm/FloatTodo). No original Git objects, refs or history were copied. Git history identifies subsequent documentation corrections.
 
 ## Snapshot and scope
 
@@ -28,7 +28,7 @@ Both hashes match the existing acceptance record. No EXE or ZIP is included or p
 
 ## Licensing preparation
 
-Source Available Software under [PolyForm Noncommercial License 1.0.0](LICENSE), SPDX PolyForm-Noncommercial-1.0.0. See [commercial licensing](COMMERCIAL_LICENSE.md). The official standard body is unmodified; its permitted institutional uses remain in effect. Copyright 2026 Peiying Ma. The formal project Required Notice and original-project scope are in [NOTICE.md](NOTICE.md). The first local commit is authorized; remote publication has not been authorized or executed. Third-party permissions remain separate. This is not an OSI-approved open-source claim.
+Source Available Software under [PolyForm Noncommercial License 1.0.0](LICENSE), SPDX PolyForm-Noncommercial-1.0.0. See [commercial licensing](COMMERCIAL_LICENSE.md). The official standard body is unmodified; its permitted institutional uses remain in effect. Copyright 2026 Peiying Ma. The formal project Required Notice and original-project scope are in [NOTICE.md](NOTICE.md). V1.3.1 source is publicly available; Windows Portable / Setup binaries have not been publicly released. Public source availability does not grant separate commercial authorization. Third-party permissions remain separate. This is not an OSI-approved open-source claim.
 
 ## Validation
 
@@ -45,9 +45,9 @@ Version: V1.3.1. Total public files: 66. The complete list follows. SHA256 is co
 | assets/icon.png | 645c4c794dfab2d4cc1ffce8f7ea55fa5b54d420d9bdcbcf1899938f87b4a479 |
 | assets/THIRD_PARTY_LICENSES.txt | 884574c919035d5a835e238a8c8b2f5bc32953be321991ac5b89cc7cb4d58abc |
 | cli/todo.cjs | 372a9695db2f5238fb3b83c39ea633b0f05b53de20d6e9c21da8c494e98df6bf |
-| COMMERCIAL_LICENSE.md | 7cbfc0d32fecd2acaf182ed09fa021db29c6aca49fe69de5a62dae88ad0ac050 |
-| CONTRIBUTING.md | 26c9edcf8ed47799ba5dd1c01d400e7d6aa021ecb519b0aa4d4dc46b7e5c4ea9 |
-| docs/RELEASE_NOTES_1.3.1.md | c2765bd4471a6c52684b041bb3dfded8cc45b9a31b2821a2fb37935b5410c549 |
+| COMMERCIAL_LICENSE.md | 9bec445dbfd8d2bf8a7f19a3f9058981c796a7765bd1af39a7fc998a88cc8cc0 |
+| CONTRIBUTING.md | 06727233253843ce0a1a74d3937f3eb899e7d67fd08eba8d30b0fd8f625bf290 |
+| docs/RELEASE_NOTES_1.3.1.md | 4f4bd49d09759e3fbdbde9a6f013bf5a4c12d49ba5ab6d24027592d6624d627a |
 | docs/TESTING.md | 950b6d8ae69d2a840104418dd9c4d9ec25892b82a129502a1968382477b8f0ae |
 | electron/credential-store.cjs | 52d02c1caa34c3926b15f1758d8c59b66c16b91beaa5c39931e1aed1f46faba9 |
 | electron/interaction-state.cjs | 0661a69d9fec737188e17d50c308d974b4c55201734a0e8f0d19ef9cb86400e8 |
@@ -67,8 +67,8 @@ Version: V1.3.1. Total public files: 66. The complete list follows. SHA256 is co
 | playwright.config.cjs | 537a951d5f1ea25c76a016c65c0fe7ff17c06239a24f29e5d8866bca6746d9a4 |
 | playwright.v130.config.cjs | 43dd6ccbc92f17dacd2df0be4e519fff09745e0ba770742fdb7ad45fcddef900 |
 | playwright.v131.config.cjs | 8276cbb7c5b35be5fbc27304a2b6baf18e472b4839b78fc039a27f251d7f3880 |
-| README.md | 59862d27d1b4d8f29f500d42a34b8f939e947782daa522dc7b1fb6ee4c78d0f2 |
-| README.zh-CN.md | 0d539c94980573c90bae0c74dbee416c40a73c92c729e7af67311d4dd3c1a838 |
+| README.md | a872360a816206d56cf08c46a331736b2a35446e7d7ae50ac3eaf66e0fa5c2d0 |
+| README.zh-CN.md | 33ba89ad8fd687e3a750b6679b910acc6ac4d65630ba4d51cc9f991e53309257 |
 | scripts/dev.cjs | 56f41bd0df71dde75425f35919da8468c154f1330cbea0de46eb3154131a178f |
 | scripts/icons.ps1 | 4a7f6c615f8e5790059e53389ba0acfe756f89e6c25d0292df6451708e56d487 |
 | scripts/invoke-cli.ps1 | ec8b393d9ec73dcfdc9d56899911e9015196a99971f17e27598a57812e092a75 |
